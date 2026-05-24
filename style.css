@@ -45,8 +45,8 @@ nav.crumb {
 }
 
 nav.crumb img {
-  width: 22px;
-  height: 22px;
+  width: 28px;
+  height: 28px;
   display: block;
 }
 
@@ -208,18 +208,21 @@ footer a:hover { color: var(--fg); }
 }
 
 .logo {
-  width: 132px;
-  height: 132px;
+  width: 168px;
+  height: 168px;
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 12px;
   user-select: none;
   -webkit-user-drag: none;
 }
 
 .landing h1 {
   font-size: 64px;
-  margin-bottom: 14px;
-  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin: 0 0 14px;
+  padding-bottom: 4px;
+  letter-spacing: -0.015em;
+  color: var(--accent);
 }
 
 .landing .tag {
@@ -279,7 +282,7 @@ footer a:hover { color: var(--fg); }
 @media (max-width: 480px) {
   .landing { padding-top: 56px; }
   .landing h1 { font-size: 52px; }
-  .logo { width: 108px; height: 108px; }
+  .logo { width: 144px; height: 144px; }
   h1 { font-size: 36px; }
   h2 { font-size: 22px; }
 }
