@@ -4,11 +4,11 @@ Static legal site for [elysa.fit](https://elysa.fit). Hosts the marketing landin
 
 ## Pages
 
-- `/`         — landing
-- `/terms`    — Terms of Service
-- `/privacy`  — Privacy Policy
+- `/`         — landing (`index.html`)
+- `/terms`    — Terms of Service (`terms/index.html`)
+- `/privacy`  — Privacy Policy (`privacy/index.html`)
 
-Pretty URLs (no `.html`) are served via Cloudflare Pages' `_redirects` file.
+Pretty URLs work natively because each page is its own directory with an `index.html`. No build step, no rewrite rules, works the same locally and on Cloudflare Pages.
 
 ## Deploy
 
